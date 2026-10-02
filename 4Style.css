@@ -1,0 +1,47 @@
+:root {
+    --background: #FFFFEE;
+    --larp: #800000;
+    --anon: #117743;
+    --quote: #000080;
+    --greentext: #789922;
+}
+
+body{
+	background: var(--background);
+	color: var(--larp);
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;   
+
+    margin-left: 0;
+	margin-right: 0;
+	margin-top: 5px;
+
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.little img{
+    height: auto;
+    width: 125px;
+}
+
+.big img {
+    height: auto;
+    width: 250px;
+}
+
+.banner {
+    height: 100px;
+    width: 300px;
+}
+
+.damn {
+    height: 90px;
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
