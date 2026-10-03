@@ -1,47 +1,123 @@
 :root {
-    --background: #FFFFEE;
-    --larp: #800000;
-    --anon: #117743;
-    --quote: #000080;
-    --greentext: #789922;
+  --background: #ffffee;
+  --larp: #800000;
+  --anon: #117743;
+  --quote: #000080;
+  --greentext: #789922;
 }
 
-body{
-	background: var(--background);
-	color: var(--larp);
-	font-family: arial, helvetica, sans-serif;
-	font-size: 10pt;   
+body {
+  background: var(--background);
+  color: var(--larp);
+  font-family: arial, helvetica, sans-serif;
+  font-size: 10pt;
 
-    margin-left: 0;
-	margin-right: 0;
-	margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
 
-	padding-left: 5px;
-	padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.little img{
-    height: auto;
-    width: 125px;
+.little img {
+  height: auto;
+  width: 125px;
 }
 
 .big img {
-    height: auto;
-    width: 250px;
+  height: auto;
+  width: 250px;
 }
 
 .banner {
-    height: 100px;
-    width: 300px;
+  height: 100px;
+  width: 300px;
+  display: block;
+  margin: auto;
 }
 
 .damn {
-    height: 90px;
-    width: 700px;
-    display: block;
-    margin: auto;
+  height: 90px;
+  width: 700px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  border-bottom: 1px solid var(--larp);
+  padding-bottom: 10px;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--larp);
+}
+
+.thingy {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.extrason {
+  white-space: nowrap;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid var(--larp);
+  border-bottom: 1px solid var(--larp);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  max-width: 600px;
+}
+
+main {
+  margin-left: 30px;
+}
+
+.line {
+  border-top: 1px solid var(--larp);
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.animanga {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--larp);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ad {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.clickablesReply {
+  display: block;
+  text-align: center;
+}
+
+.line-botton {
+  border-top: 1px solid var(--larp);
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--larp);
+  padding-bottom: 10px;
+}
+
+.numbers {
+  flex: 1;
+  text-align: right;
+}
+
+.clickables-botton {
+  flex: 1;
+  text-align: left;
 }
