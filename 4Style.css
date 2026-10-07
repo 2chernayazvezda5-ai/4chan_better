@@ -4,6 +4,8 @@
   --anon: #117743;
   --quote: #000080;
   --greentext: #789922;
+  --backbox: #f0e0d6;
+  --box: #d9bfb7;
 }
 
 body {
@@ -23,11 +25,17 @@ body {
 .little img {
   height: auto;
   width: 125px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
-.big img {
+.op img {
   height: auto;
   width: 250px;
+  float: left;
+  margin-right: 20px;
 }
 
 .banner {
@@ -120,4 +128,63 @@ main {
 .clickables-botton {
   flex: 1;
   text-align: left;
+}
+
+.botton-ad {
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid var(--larp);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.extra {
+  justify-content: space-between;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.bottom-of-bottom {
+  text-align: center;
+}
+
+.Anon {
+  color: var(--anon);
+  font-weight: bold;
+}
+
+.master {
+  text-align: left;
+}
+
+.little {
+  width: fit-content;
+  display: table;
+  background: var(--backbox);
+  border: 1px solid var(--box);
+  margin-bottom: 6px;
+}
+
+.quote {
+  color: var(--quote);
+  display: block;
+  margin-top: 12px;
+  text-decoration: underline;
+}
+
+.reply {
+  margin-left: 10px;
+}
+
+.mega {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.quotegrande {
+  margin-right: 10px;
+}
+
+.jump {
+  margin-right: 5px;
 }
