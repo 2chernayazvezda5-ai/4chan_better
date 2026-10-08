@@ -6,10 +6,18 @@
   --greentext: #789922;
   --backbox: #f0e0d6;
   --box: #d9bfb7;
+  --fio: #eeaa88;
+  --linka: #0000ff;
+  --grandiente: #fed6af;
+  --ommited: #b8b8b8;
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(
+    to bottom,
+    var(--grandiente),
+    var(--background) 200px
+  );
   color: var(--larp);
   font-family: arial, helvetica, sans-serif;
   font-size: 10pt;
@@ -100,6 +108,7 @@ main {
   border-bottom: 1px solid var(--larp);
   max-width: 1200px;
   margin: auto;
+  padding-top: 10px;
 }
 
 .ad {
@@ -142,6 +151,7 @@ main {
   justify-content: space-between;
   text-align: right;
   padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 .bottom-of-bottom {
@@ -187,4 +197,90 @@ main {
 
 .jump {
   margin-right: 5px;
+}
+
+.grand {
+  color: var(--linka);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.catalog img {
+  height: auto;
+  width: 150px;
+}
+
+.catalog {
+  width: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ammount {
+  display: block;
+  font-weight: bold;
+  font-size: 9pt;
+}
+
+.lines {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--larp);
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.thread-list {
+  max-width: max-content;
+  margin: auto;
+}
+
+.count {
+  display: block;
+  font-weight: bold;
+  font-size: 11pt;
+  text-align: center;
+}
+
+.threads th {
+  border: 1px solid var(--larp);
+  background-color: var(--fio);
+}
+.threads tbody tr:nth-child(odd) {
+  background: var(--backbox);
+}
+
+.ommited {
+  color: var(--ommited);
+  font-size: 9pt;
+}
+
+.botton-of-ad {
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid var(--larp);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--larp);
+}
+
+.extra-extra {
+  color: var(--linka);
+  background: var(--backbox);
+  padding: 7px;
+}
+
+.extra-extra-extra {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.lol {
+  padding: 0 10px;
+  border-left: 1px solid var(--larp) 2;
 }
