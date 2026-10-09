@@ -39,7 +39,14 @@
       <div class="ad">[Advertise on 4chan]</div>
       <div class="line">
         <div class="clickables">
-          <a href="board.html">[Return]</a>
+          <a
+            href="board.html"
+            onclick="
+              history.back();
+              return false;
+            "
+            >[Return]</a
+          >
           <a href="catalog.html">[Catalog]</a>
           <a href="#">[Bottom]</a>
           <a href="#">[Update]</a>
@@ -47,13 +54,14 @@
         <span class="auto">[ ⬜ Auto]</span>
       </div>
     </div>
-    <main>
+    <main data-thread="291287699">
       <!-- op, ela é diferente do resto -->
       <div class="op">
         <img src="shinku_air.png" />
         <span class="jump"
           ><span class="Anon">Anonymous</span> 09/29/26(Tue)01:55:36
-          No.291287699 ▶ <a class="quotegrande" href="#">>>291287737 </a
+          No.291287699 <span class="helth"> [Alive]</span> ▶
+          <a class="quotegrande" href="#">>>291287737 </a
           ><a class="quotegrande" href="#">>>291287832 </a
           ><a class="quotegrande" href="#">>>291289159 </a></span
         >
@@ -171,7 +179,14 @@
     <div class="bottom">
       <div class="line-botton">
         <div class="clickables-botton">
-          <a href="board.html">[Return]</a>
+          <a
+            href="board.html"
+            onclick="
+              history.back();
+              return false;
+            "
+            >[Return]</a
+          >
           <a href="catalog.html">[Catalog]</a>
           <a href="#">[Top]</a>
           <a href="#">[Update]</a>
@@ -218,5 +233,6 @@
       •
       <a href="#">Contact</a>
     </div>
+    <script src="4Script.js"></script>
   </body>
 </html>

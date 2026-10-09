@@ -27,7 +27,14 @@
       <!-- maybe making both images random -->
       <div class="line">
         <div class="clickables">
-          <a href="board.html">[Return]</a>
+          <a
+            href="board.html"
+            onclick="
+              history.back();
+              return false;
+            "
+            >[Return]</a
+          >
           <a href="catalog.html">[Catalog]</a>
           <a href="#">[Bottom]</a>
         </div>
@@ -485,7 +492,14 @@
     <div class="bottom">
       <div class="line-botton">
         <div class="clickables-botton">
-          <a href="board.html">[Return]</a>
+          <a
+            href="board.html"
+            onclick="
+              history.back();
+              return false;
+            "
+            >[Return]</a
+          >
           <a href="catalog.html">[Catalog]</a>
           <a href="#">[Top]</a>
         </div>
@@ -524,5 +538,6 @@
       •
       <a href="#">Contact</a>
     </div>
+    <script src="4Script.js"></script>
   </body>
 </html>

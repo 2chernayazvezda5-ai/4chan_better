@@ -18,6 +18,7 @@ body {
     var(--grandiente),
     var(--background) 200px
   );
+  background-repeat: no-repeat;
   color: var(--larp);
   font-family: arial, helvetica, sans-serif;
   font-size: 10pt;
@@ -28,6 +29,11 @@ body {
 
   padding-left: 5px;
   padding-right: 5px;
+
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .little img {
@@ -93,7 +99,9 @@ body {
 
 main {
   margin-left: 30px;
+  flex: 1;
 }
+
 
 .line {
   border-top: 1px solid var(--larp);
@@ -259,7 +267,6 @@ main {
 }
 
 .botton-of-ad {
-  flex: 1;
   text-align: center;
   border-bottom: 1px solid var(--larp);
   padding-bottom: 10px;
@@ -283,4 +290,115 @@ main {
 .lol {
   padding: 0 10px;
   border-left: 1px solid var(--larp) 2;
+}
+
+.portant{
+  font-weight: bold;
+}
+
+.mainlife{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.op .flag,
+.little .flag {
+  width: 16px;
+  height: 11px;
+  float: none;
+  margin: 0 3px;
+  vertical-align: middle;
+}
+
+.helth{
+  color: var(--anon)
+}
+
+.clicky {
+  cursor: pointer;
+}
+
+.sameanon {
+  outline: 2px solid var(--larp);
+}
+
+.thisanon {
+  outline-width: 4px;
+}
+
+.anoncount {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 10px;
+  background: var(--backbox);
+  border: 1px solid var(--box);
+}
+
+.anoncount[hidden] {
+  display: none;
+}
+
+.gone {
+  display: none;
+}
+
+.folded {
+  display: none;
+}
+
+.folded.peek {
+  display: table;
+}
+
+.glow {
+  background: var(--fio);
+}
+
+.foldy {
+  cursor: pointer;
+  color: var(--linka);
+  margin-bottom: 6px;
+}
+
+.stuffbox {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  width: 340px;
+  max-height: 80vh;
+  overflow: auto;
+  padding: 10px;
+  background: var(--backbox);
+  border: 1px solid var(--box);
+  text-align: left;
+}
+
+.stuffbox[hidden] {
+  display: none;
+}
+
+.stuffbox h3 {
+  margin: 8px 0 4px;
+}
+
+.stuffline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.smolnote {
+  font-size: 9pt;
+  color: var(--ommited);
+  margin: 4px 0;
+}
+
+.newstuff {
+  font-weight: bold;
+  margin-bottom: 5px;
 }
