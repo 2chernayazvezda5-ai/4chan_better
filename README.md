@@ -1,2 +1,5 @@
-University project around UX and UI, we choose to make 4chan a little bit better, nothing serious or grand, but overhaul fun!
-Anyway this is a prototype to test how the feature would look, do not expect something more.
+Little University project.
+The goal is to present some improvements to UX and UI of some site or app, the one choosen here was 4chan, take it as a simple prototype, by the time that this is being written its basically ready but I'll put more improvements here in due time just for fun.
+
+![MeFr](imaginicus/kinocosplay.jpg)
+
